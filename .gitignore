@@ -1,3 +1,7 @@
+#Build artefact
+/.out
+
+#Build files
 /.idea
 *.iml
 /.out
