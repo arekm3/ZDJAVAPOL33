@@ -1,3 +1,5 @@
+package exercises;
+
 public class Ex9 {
 
     public static int modulo(int dividend, int divider) {
@@ -15,7 +17,12 @@ public class Ex9 {
         return result;
     }
 
+    public static void printModulo(int dividend, int divider){
+        System.out.println(modulo(dividend,divider));
+    }
+
     public static void main(String[] args) {
-        System.out.println(modulo(7, 5));
+        //System.out.println(modulo(7, 5));
+        printModulo(7,5);
     }
 }
