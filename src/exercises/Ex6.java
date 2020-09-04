@@ -1,3 +1,5 @@
+package exercises;
+
 public class Ex6 {
 
     public static void countNegativeValues(int[] allValues) {
