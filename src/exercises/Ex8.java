@@ -1,3 +1,5 @@
+package exercises;
+
 public class Ex8 {
     public static boolean isTableArithmeticRow(int[] row) {
         int difference = row[1] - row[0];
